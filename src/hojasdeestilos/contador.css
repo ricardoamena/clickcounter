@@ -1,0 +1,14 @@
+/* Estilos para el contador */
+.contador {
+    min-width: 300px; /* Ancho mínimo del contador */
+    height: 300px; /* Altura del contador */
+    font-size: 160px; /* Tamaño de fuente grande para el contador */
+    padding: 25px; /* Espacio de relleno alrededor del contador */
+    color: azure; /* Color del texto (azul claro) */
+    display: flex; /* Muestra los elementos como una fila */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    border: 8px solid white; /* Borde blanco de 8 píxeles */
+    margin-bottom: 15px; /* Margen inferior de 15 píxeles */
+    border-radius: 40px; /* Radio de borde para esquinas redondeadas */
+  }

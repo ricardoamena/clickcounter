@@ -1,43 +1,46 @@
+/* Estilos generales para todos los elementos */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* Estilos para el elemento <html> y <body> */
 html, body {
   background-color: black;
 }
 
+/* Estilos para el contenedor principal de la aplicación */
 .App {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  padding-top: 15px;
-  font-family: sans-serif;
-
+  display: flex; /* Muestra los elementos como una fila */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no caben */
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  padding-top: 15px; /* Agrega espacio de relleno en la parte superior */
+  font-family: sans-serif; /* Establece la fuente del texto */
 }
 
-.freecodecamp-logo-contenedor {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-  
+/* Estilos para el contenedor del logo de FreeCodeCamp */
+.logo-contenedor {
+  width: 100%; /* Ancho al 100% del contenedor padre */
+  display: flex; /* Muestra los elementos como una fila */
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  margin: 20px; /* Agrega un margen alrededor del contenedor */
 }
 
-.freecodecamp-logo {
-  height: 200px;
+/* Estilos para el logo de FreeCodeCamp */
+.logo {
+  height: 200px; /* Establece la altura del logo */
 }
 
+/* Estilos para el contenedor principal */
 .contenedor-principal {
-  height: 550px;
-  min-width: 600px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
+  height: 550px; /* Establece la altura del contenedor */
+  min-width: 600px; /* Establece el ancho mínimo */
+  display: flex; /* Muestra los elementos como una columna */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea si no caben */
+  flex-direction: column; /* Establece la dirección como columna */
+  align-items: center; /* Centra verticalmente los elementos */
+  justify-content: center; /* Centra horizontalmente los elementos */
 }
